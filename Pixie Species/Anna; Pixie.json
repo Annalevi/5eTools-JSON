@@ -28,6 +28,9 @@
         "source": "mYpIxIe",
         "page": 0,
         "lineage": "VRGR",
+        "creatureTypes": [
+            "fey"
+        ],
         "size": [
             "T"
         ],
@@ -37,7 +40,7 @@
         },
         "darkvision": 60,
         "traitTags": [
-            "Language Proficiency"
+            ""
         ],
         "additionalSpells": [
             {
@@ -78,13 +81,6 @@
             }
         ],
         "entries": [
-            {
-                "type": "entries",
-                "name": "Creature Type",
-                "entries": [
-                    "You are a Fey."
-                ]
-            },
             {
                 "type": "entries",
                 "name": "Pixie Magic",
