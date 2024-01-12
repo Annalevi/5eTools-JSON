@@ -176,16 +176,6 @@
             "classSource": "InkmagusReEditedAnna",
             "level": 1,
             "entries": [
-                ""
-            ]
-        },
-        {
-            "name": "",
-            "source": "InkmagusReEditedAnna",
-            "className": "Inkmagus",
-            "classSource": "InkmagusReEditedAnna",
-            "level": 1,
-            "entries": [
                 "Your body is covered with a number of powerful tattoos, drawn on your skin as part of an ancient ritual and imbued with magical power, which you can draw upon to produce magical effects.Inkcasting follows the general rules of spellcasting unless otherwise stated, as found in the Player’s Handbook.",
                 {
                     "type": "entries",
@@ -241,18 +231,6 @@
         }
     ],
     "subclassFeature": [
-        {
-            "name": "",
-            "source": "InkmagusReEditedAnna",
-            "className": "Inkmagus",
-            "classSource": "InkmagusReEditedAnna",
-            "subclassShortName": "Artist",
-            "subclassSource": "InkmagusReEditedAnna",
-            "level": 1,
-            "entries": [
-                ""
-            ]
-        },
         {
             "name": "Tattoo Artist Specialist",
             "source": "InkmagusReEditedAnna",
