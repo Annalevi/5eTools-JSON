@@ -1,0 +1,96 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+
+    "_meta": {
+        "sources": [
+            {
+                "json": "InkmagusReEditedAnna",
+                "abbreviation": "TIM",
+                "full": "The Inkmagus",
+                "authors": [
+                    "Anna"
+                ],
+                "convertedBy": [
+                    "Anna"
+                ],
+                "version": "1.0",
+                "color": "301934",
+                "url": "",
+                "targetSchema": "1.2"
+            }
+        ],
+        "dateAdded": 1705042248,
+        "dateLastModified": 1705042248
+    },
+
+    "class": [
+        {
+            "name": "Inkmagus",
+            "source": "InkmagusReEditedAnna",
+            "classFeatures": [
+                
+            ],
+            "hd": {
+                "number": 0,
+                "faces": 0
+            },
+            "proficiency": [
+                "str",
+                "str"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "Choose between light, medium, heavy and shields"
+                ],
+                "weapons": [
+                    "simple and martial are rendered as x weapons, but you can write any string that you want."
+                ],
+                "tools": [
+                    "Name of any tool or artisan tools"
+                ],
+                "skills": [
+                    {
+                        "skillName": true
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "default": [
+                    "Each string will appear as a list entry"
+                ],
+                "additionalFromBackground": true,
+                "goldAlternative": "{@dice xdy}"
+            },
+            "multiclassing": {
+                "requirements": {
+                        "str": 0
+                    },
+                "proficienciesGained": {
+                    "armor": [
+                        ""
+                    ],
+                    "weapons": [
+                        ""
+                    ],
+                    "tools": [
+                        ""
+                    ],
+                    "skills": [
+                        ""
+                    ]
+                }
+            },
+            "casterProgression": "full",
+            "spellcastingAbility": "str",
+            "classSpells": [
+                ""
+            ],
+            "fluff": [
+                ""
+            ],
+            "subclasses": [
+                
+            ]
+        }
+    ]
+}
