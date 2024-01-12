@@ -1,6 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-
     "_meta": {
         "sources": [
             {
@@ -124,7 +122,7 @@
                     }
             },
             "classFeatures": [
-                "imagry|Inkmagus|InkmagusReEditedAnna|1",
+                "Imagry|Inkmagus|InkmagusReEditedAnna|1",
                 "Inkcasting|Inkmagus|InkmagusReEditedAnna|1",
                 "Channel Marks|Inkmagus|InkmagusReEditedAnna|2",
                 "Otherworldly Perception|Inkmagus|InkmagusReEditedAnna|2",
