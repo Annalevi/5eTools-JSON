@@ -324,11 +324,11 @@
                 {
                     "title": "Tattoos Learned Per Level",
                     "colLabels": [
-                        "{@filter common|Tattoos|level=1|class=Inkmagus (TIM)}",
-                        "{@filter un common|Tattoos|level=2|class=Inkmagus (TIM)}",
-                        "{@filter rare|Tattoos|level=3|class=Inkmagus (TIM)}",
-                        "{@filter very vare|Tattoos|level=4|class=Inkmagus (TIM)}",
-                        "{@filter legendary|Tattoos|level=5|class=Inkmagus (TIM)}"
+                        "{@filter Common|items|source=inkmagusreeditedanna|type=tattoo|rarity=common|category=}",
+                        "{@filter Un common|items|source=inkmagusreeditedanna|type=tattoo|rarity=uncommon|category=}",
+                        "{@filter Rare|items|source=inkmagusreeditedanna|type=tattoo|rarity=rare|category=}",
+                        "{@filter Very vare|items|source=inkmagusreeditedanna|type=tattoo|rarity=very rare|category=}",
+                        "{@filter Legendary|items|source=inkmagusreeditedanna|type=tattoo|rarity=legendary|category=}"
                     ],
                     "rows": [
                         [
@@ -1361,10 +1361,13 @@
         {
             "name": "Abyssal Whip Tattoo",
             "source": "InkmagusReEditedAnna",
-            "type": "Tattoo",
+            "wondrous": true,
+            "tattoo": true,
             "rarity": "common",
+            "charges": 1,
+            "recharge": "dawn",
             "entries": [
-                "This tattoo depicts snaking shapes and patterns",
+                "{@note This tattoo depicts snaking shapes and patterns}",
                 {
                     "type": "list",
                     "name": "Abyssal Elongation.",
