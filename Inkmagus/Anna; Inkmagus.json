@@ -715,7 +715,7 @@
                     "name": "Cantrips",
                     "entries": [
                         "Your body is marked with a number of smaller tattoos that can be invoked at will to produce simple magic effects. Each tattoo is tied to a single cantrip, which you can invoke the tattoo to produce.",
-                        "You start with two cantrip tattoos of your choice. Choose two cantrips from the inkmagus spell list, detailed below. You gain a tattoo associated with each cantrip, and you can cast those cantrips from your tattoos. (This counts as knowing those cantrips).",
+                        "You start with two cantrip tattoos of your choice. Choose two cantrips from the {@filter inkmagus spell list|spells|class=Inkmagus (TIM)}. You gain a tattoo associated with each cantrip, and you can cast those cantrips from your tattoos. (This counts as knowing those cantrips).",
                         "You gain an additional cantrip tattoo at 4th level, and a further cantrip tattoo at 10th level"
                     ]
                 },
@@ -724,7 +724,7 @@
                     "name": "Personal Ink",
                     "entries": [
                         "You do not know or prepare spells of 1st level or higher, as other classes do. Instead, your body is marked with a number of magical inks, which either provide perpetual magical protection or can be invoked to produce magical effects.",
-                        "You start with one ink. Choose your ink from the inks options at the end of the class description. You can only choose an ink for which you fulfil the prerequisites.You gain additional inks at higher levels, as specified in the “personal ink” column of the Inkmagus table."
+                        "You start with two inks. Choose your ink from the inks options. You can only choose an ink for which you fulfil the prerequisites.You gain additional inks at higher levels, as specified in the “personal ink” column of the Inkmagus table."
                     ]
                 },
                 {
@@ -926,7 +926,7 @@
                     "name": "",
                     "items": [
                         "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
-                        "pick a feat of your choice you qualify for."
+                        "pick a {@5etools feat|feats.html} of your choice you qualify for."
                     ]
                 }
             ]
@@ -946,7 +946,7 @@
                     "name": "",
                     "items": [
                         "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
-                        "pick a feat of your choice you qualify for."
+                        "pick a {@5etools feat|feats.html} of your choice you qualify for."
                     ]
                 }
             ]
@@ -966,7 +966,7 @@
                 "name": "",
                 "items": [
                     "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
-                    "pick a feat of your choice you qualify for."
+                    "pick a {@5etools feat|feats.html} of your choice you qualify for."
                 ]
             }
             ]
@@ -986,7 +986,7 @@
                 "name": "",
                 "items": [
                     "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
-                    "pick a feat of your choice you qualify for."
+                    "pick a {@5etools feat|feats.html} of your choice you qualify for."
                 ]
             }
             ]
@@ -1006,7 +1006,7 @@
                 "name": "",
                 "items": [
                     "increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1 As normal you can’t increase an ability score above 20 using this feature.",
-                    "pick a feat of your choice you qualify for."
+                    "pick a {@5etools feat|feats.html} of your choice you qualify for."
                 ]
             }
             ]
@@ -1355,6 +1355,25 @@
             ],
             "className": "Inkmagus",
             "classSource": "InkmagusReEditedAnna"
+        }
+    ],
+    "item": [
+        {
+            "name": "Abyssal Whip Tattoo",
+            "source": "InkmagusReEditedAnna",
+            "type": "Tattoo",
+            "rarity": "common",
+            "entries": [
+                "This tattoo depicts snaking shapes and patterns",
+                {
+                    "type": "list",
+                    "name": "Abyssal Elongation.",
+                    "items": [
+                        "As a bonus action, you can empower the tattoo for 1 minute. For the duration, each of your melee weapon attacks on your turn can reach a target up to 15 feet away, as tendrils of ink launch from your weapon or unarmed strike toward the target. Once used, this bonus action can’t be used again until the next dawn."
+                    ]
+                }
+
+            ]
         }
     ]
 }
