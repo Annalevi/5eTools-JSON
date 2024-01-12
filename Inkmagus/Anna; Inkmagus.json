@@ -40,7 +40,7 @@
             ],
             "startingProficiencies": {
                 "armor": [
-                    "shields"
+                    "{@item shield|phb|shields}"
                 ],
                 "weapons": [
                     "Daggers, darts, shortswords, quarterstaffs, light crossbows"
@@ -126,16 +126,22 @@
                         "int": 13
                     }
             },
-            "casterProgression": "1/2",
-            "spellcastingAbility": "int",
-            "classSpells": [
-                ""
+            "classFeature": [
+                {
+                    "name": "Imagry",
+                    "source": "InkmagusReEditedAnna",
+                    "className": "Inkmagus",
+                    "classSource": "InkmagusReEditedAnna",
+                    "level": 1,
+                    "entries": [
+                        "You are adapt with expressing meaning through complex symbolism and imagery, which functions like a second language to you. When you paint or sketch a picture, you can encode in that picture a short hidden message, up to a few sentences long. You and other creatures who know this picture language can see and understand any such message in a picture. Other creatures that do not know this language can spot the message with a successful DC 15 Intelligence (History) check related to art history, but they can’t decipher it without magic."
+                    ]
+                }
             ],
             "fluff": [
                 ""
             ],
-            "subclasses": [
-                
+            "subclass": [
             ]
         }
     ]
