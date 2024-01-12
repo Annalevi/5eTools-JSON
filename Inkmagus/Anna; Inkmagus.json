@@ -41,7 +41,7 @@
                     "Daggers, darts, shortswords, quarterstaffs, light crossbows"
                 ],
                 "tools": [
-                    "Inking supplies."
+                    "Inking supplies"
                 ],
                 "skills": [
                     {
@@ -105,11 +105,11 @@
                                 "quantity": 2 
                             },
                             {
-                                "item": "inking supplies|TIM",
+                                "item": "",
                                 "quantity": 1
                             },
                             {
-                                "item": "tattoo needle|TIM",
+                                "item": "",
                                 "quantity": 1
                             }
                         ]
