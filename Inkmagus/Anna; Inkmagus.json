@@ -168,6 +168,76 @@
             "entries": [
                 "You are adapt with expressing meaning through complex symbolism and imagery, which functions like a second language to you. When you paint or sketch a picture, you can encode in that picture a short hidden message, up to a few sentences long. You and other creatures who know this picture language can see and understand any such message in a picture. Other creatures that do not know this language can spot the message with a successful DC 15 Intelligence (History) check related to art history, but they can’t decipher it without magic."
             ]
+        },
+        {
+            "name": "",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 1,
+            "entries": [
+                ""
+            ]
+        },
+        {
+            "name": "",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 1,
+            "entries": [
+                "Your body is covered with a number of powerful tattoos, drawn on your skin as part of an ancient ritual and imbued with magical power, which you can draw upon to produce magical effects.Inkcasting follows the general rules of spellcasting unless otherwise stated, as found in the Player’s Handbook.",
+                {
+                    "type": "entries",
+                    "name": "Cantrips",
+                    "entries": [
+                        "Your body is marked with a number of smaller tattoos that can be invoked at will to produce simple magic effects. Each tattoo is tied to a single cantrip, which you can invoke the tattoo to produce. You start with two cantrip tattoos of your choice. Choose two cantrips from the inkmagus spell list, detailed below. You gain a tattoo associated with each cantrip, and you can cast those cantrips from your tattoos. (This counts as knowing those cantrips).You gain an additional cantrip tattoo at 4th level, and a further cantrip tattoo at 10th level"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personal Ink",
+                    "entries": [
+                        "You do not know or prepare spells of 1st level or higher, as other classes do. Instead, your body is marked with a number of magical inks, which either provide perpetual magical protection or can be invoked to produce magical effects.You start with one ink. Choose your ink from the inks options at the end of the class description. You can only choose an ink for which you fulfil the prerequisites.You gain additional inks at higher levels, as specified in the “personal ink” column of the Inkmagus table."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Arcane Needle",
+                    "entries": [
+                        "you create an Arcane Needle, a ﬁnely tuned tool that allows you to etch beautiful art on people’s skin, magical or not. You can now create magical tattoos of common rarity.to create a magical tattoo you must learn how to imbue a mundane tattoo with magical energy, the amount of magical tattoos you can learn each level is specified in the “Tattoos Learned” column of the Inkmagus table. when you create your charecter pick one tattoo from the magical tattoo list and add it to your list of tattoos known.Whenever you finish a long rest, you can touch a person with your arcane needle and mark them with one of your tattoos, turning it into a magic tattoo.Your magic tattoo remains on a person indefinitely, but when you die, the magical tattoo vanishes after a number of days have passed equal to your Intelligence modifier (minimum of 1 day).You can tattoo more than one person at the end of a long rest; the maximum number of magical tattoos you can have on others appears in the “tattoo slots” column of the Inkmagus table. You must touch each of them with the arcane needle, and each of your tattoos can be only on one person at a time. If you try to exceed your maximum number of tattoos, the oldest tattoo immediately vanishes, and then the new tattoo applies. additionally, you can mark your own skin with a common magical tattoo without having to spend a tattoo slot."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your spellcasting ability for your inkmagus spells, since your magic draws upon an intimate knowledge of the art form. You use your Intelligence modifier whenever spell or tattoo effects refer to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an inkmagus spell you cast and when making an attack roll with one.",
+                        {
+                            "type": "abilityDc",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Spell",
+                            "attributes": [
+                                "int"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Focus",
+                    "page": 3,
+                    "entries": [
+                        "The tattoos on your body act as a spellcasting focus for your inkmagus spells."
+                    ]
+                }
+            ]
         }
     ],
     "subclassFeature": [
