@@ -6,7 +6,7 @@
                 "abbreviation": "TIM",
                 "full": "The Inkmagus",
                 "authors": [
-                    "Anna"
+                    "Toby lowther, Anna"
                 ],
                 "convertedBy": [
                     "Anna"
@@ -154,8 +154,103 @@
                 "Mark of the Stars|Inkmagus|InkmagusReEditedAnna|18",
                 "Ability score Improvement|Inkmagus|InkmagusReEditedAnna|19",
                 "Living Canvass|Inkmagus|InkmagusReEditedAnna|20"
+            ],
+            "subclassTitle": "Specialists",
+            "classSpells": [
+                "chill touch",
+                "control flames",
+                "create bonfire",
+                "dancing light",
+                "druidcraft",
+                "friend",
+                "frostbite",
+                "guidance",
+                "gust",
+                "mending",
+                "mold earth",
+                "poison spray",
+                "primal savagery",
+                "produce flame",
+                "resistance",
+                "shape water",
+                "shillelagh",
+                "spare the dying",
+                "thorn whip",
+                "thunderclap",
+                "alarm",
+                "comprehend languages",
+                "detect magic",
+                "identify",
+                "purify food and drink",
+                "speak with animals",
+                "magic mouth",
+                "animal messenger",
+                "beast sense",
+                "locate animals or plants",
+                "silence",
+                "feign death",
+                "meld into stone",
+                "water breathing",
+                "water walk",
+                "divination",
+                "commune with nature",
+                "contact other plane"
+            ],
+            "casterProgression": "1/2",
+            "spellcastingAbility": "int",
+            "fluff": [
+                {
+                    "type": "section",
+                    "name": "The InkMagus",
+                    "source": "InkmagusReEditedAnna",
+                    "entries": [
+                        "A bald human, covered head to toe in black, geomteric tattoos, meditates upon a pillar. He remains motionless, the wind swirling about ruffling his clothes yet seemingly leaving him untouched. In a moment, he opens his eyes, and begins to descend a new vision set in his heart for the future of the world.A forest gnome, her skin dappled with ink like the shadows of a forest, moves silently through the trees, crossing a glade before disappearing again the moment she enters folliage.When she reaches the orc hunting party, she suddenly leaps forward in a bust of action, whirling blades shrieking out of the trees.A half-elven gambler sits at the table, the forearms poking out from his sleeves marked with four-leaved clovers and six- sided dice amongst flowing black lines. The duergar gather around expecting this new comer to lose everything as the fate of the captives comes down to a single die roll The die seems about to settle, then suddenly rolls on, landing with two sixes and guaranteeing the half-elf his victory. As the dwarves rage and shout in disbelief, a slight smile tweaks the half-elf’s lips.These individuals are radically different in many ways, but each is tied to the others by one thing: they are defined above all, by the magical tattoos they bear. More than simply decoration, these powerful tattoos imbue the wearer with magical powers, revealing mysteries, filling the body with arush of adrenaline, or even banding chance in your favour.This is the mark of the inkmagus, a magic-wielder who drawsupon the power of mystical tattoos.Different inkmagi draw their power from different sources: some from the life force that pulses through all creation, others from ancestor spirits, some from divine meditation, some from the magic of the Weave. For every inkmagus, whatever the source of their power, this power is channeled and controlled through tattoos with magical force",
+                        {
+                            "type": "entries",
+                            "name": "Colour and Vibrancy",
+                            "entries": [
+                                "For those who follow the path of the inkmagus, their own body becomes a work of art, to be built upon and developed over the course of a lifetime. As an inkmagus, your skin is your canvas, and you express your identity and values through the style and pattern of tattoos you bear. inkmagi have an eye for colour and form, and usually try to design their tattoos in such a way as to both exacerbate the features they find aesthetically pleasing in their own form and to abstract away from their physical body to present an image which is broader and larger than just their own four limbs.Wherever this class provides a description for a tattoo, this is intended as a launching platform and an inspiration, not as a prescription. Although the tattoos detailed below are those widely developed by inkmagi, each inkmagus will have their own interpretation of the correct colour, shape, and form of every tattoo, which both captures the universal imagery of the tattoos and simultaneously expresses their individuality and personality."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Every Mark has a Story",
+                            "entries": [
+                                "For an inkmagus, no two tattoos are the same, and every tattoo has a story to tell As an inkmagus, the tattoos you choose should reflect your character’s history and trajectory, the people and places they have encountered in life, and the lessons they have learned.When you choose your early tattoos, consider how they reflect your character’s history and ideals, the things and people that really matter to them. As you continue on your adventures, you may find that the content of those adventures begin to inform the tattoos you choose, such as choosing a tattoo to comemorate a recently fallen comrade, or a particular grand adventure.While you do not need to tell the stories of every tattoo you have, try to at least have a vague idea of what each tattoo means to your character, and the story they could tell"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Creating an Inkmagus",
+                            "entries": [
+                                "As you create your inkmagus, two major questions should guide your design: who taught you the art of crafting magic tattoos, and how connected are you with the ancient traditions? Most inkmagi train under a master. Did you train under an established master with many pupils? Perhaps your master was a lone wanderer, driven away as a heretic for his unusual take on inkmagus traditions. Or perhaps you developed your techniques yourself, either from instructional tomes or by a stroke of inspiration. If you had a mentor, you should determine what your relationship with them was like, and why you left.Related to your mentor is your connection with the ancient traditions. The art of magical tattoos is founded in a tradition filled with complex rituals and intricate symbolsim, handed down from master to apprentice over many generations."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "cantripProgression": [
+                2,
+                2,
+                2,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
             ]
-
         }
     ],
     "classFeature": [
