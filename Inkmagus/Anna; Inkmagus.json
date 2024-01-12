@@ -123,37 +123,8 @@
             },
             "classFeatures": [
                 "Imagry|Inkmagus|InkmagusReEditedAnna|1",
-                "Inkcasting|Inkmagus|InkmagusReEditedAnna|1",
-                "Channel Marks|Inkmagus|InkmagusReEditedAnna|2",
-                "Otherworldly Perception|Inkmagus|InkmagusReEditedAnna|2",
-                {
-                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|3",
-                    "gainSubclassFeature": true
-                },
-                "Ritual Painter|Inkmagus|InkmagusReEditedAnna|3",
-                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|4",
-                {
-                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|6",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|8",
-                {
-                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|10",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|12",
-                {
-                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|14",
-                    "gainSubclassFeature": true
-                },
-                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|16",
-                {
-                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|17",
-                    "gainSubclassFeature": true
-                },
-                "Mark of the Stars|Inkmagus|InkmagusReEditedAnna|18",
-                "Ability score Improvement|Inkmagus|InkmagusReEditedAnna|19",
-                "Living Canvass|Inkmagus|InkmagusReEditedAnna|20"
+                "Inkcasting|Inkmagus|InkmagusReEditedAnna|1"
+                
             ],
             "subclassTitle": "Specialists",
             "classSpells": [
