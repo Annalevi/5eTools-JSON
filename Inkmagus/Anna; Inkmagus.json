@@ -15,7 +15,7 @@
                 ],
                 "version": "1.0",
                 "color": "301934",
-                "url": "",
+                "url": "none",
                 "targetSchema": "1.2"
             }
         ],
@@ -27,9 +27,6 @@
         {
             "name": "Inkmagus",
             "source": "InkmagusReEditedAnna",
-            "classFeatures": [
-                
-            ],
             "hd": {
                 "number": 1,
                 "faces": 8
@@ -126,22 +123,136 @@
                         "int": 13
                     }
             },
-            "classFeature": [
+            "classFeatures": [
+                "imagry|Inkmagus|InkmagusReEditedAnna|1",
+                "Inkcasting|Inkmagus|InkmagusReEditedAnna|1",
+                "Channel Marks|Inkmagus|InkmagusReEditedAnna|2",
+                "Otherworldly Perception|Inkmagus|InkmagusReEditedAnna|2",
                 {
-                    "name": "Imagry",
-                    "source": "InkmagusReEditedAnna",
-                    "className": "Inkmagus",
-                    "classSource": "InkmagusReEditedAnna",
-                    "level": 1,
-                    "entries": [
-                        "You are adapt with expressing meaning through complex symbolism and imagery, which functions like a second language to you. When you paint or sketch a picture, you can encode in that picture a short hidden message, up to a few sentences long. You and other creatures who know this picture language can see and understand any such message in a picture. Other creatures that do not know this language can spot the message with a successful DC 15 Intelligence (History) check related to art history, but they can’t decipher it without magic."
+                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|3",
+                    "gainSubclassFeature": true
+                },
+                "Ritual Painter|Inkmagus|InkmagusReEditedAnna|3",
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|4",
+                {
+                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|6",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|8",
+                {
+                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|10",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|12",
+                {
+                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|14",
+                    "gainSubclassFeature": true
+                },
+                "Ability Score Improvement|Inkmagus|InkmagusReEditedAnna|16",
+                {
+                    "classFeature": "Inking Tradition|Inkmagus|InkmagusReEditedAnna|17",
+                    "gainSubclassFeature": true
+                },
+                "Mark of the Stars|Inkmagus|InkmagusReEditedAnna|18",
+                "Ability score Improvement|Inkmagus|InkmagusReEditedAnna|19",
+                "Living Canvass|Inkmagus|InkmagusReEditedAnna|20"
+            ]
+
+        }
+    ],
+    "classFeature": [
+        {
+            "name": "Imagry",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "level": 1,
+            "entries": [
+                "You are adapt with expressing meaning through complex symbolism and imagery, which functions like a second language to you. When you paint or sketch a picture, you can encode in that picture a short hidden message, up to a few sentences long. You and other creatures who know this picture language can see and understand any such message in a picture. Other creatures that do not know this language can spot the message with a successful DC 15 Intelligence (History) check related to art history, but they can’t decipher it without magic."
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 1,
+            "entries": [
+                ""
+            ]
+        },
+        {
+            "name": "Tattoo Artist Specialist",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "You have focused your efforts twards helping people with your skills and learned how to imbue your tattoos with more potent magical energy. you also discovered that your arcane needle can do more than just ink."
+            ]
+        },
+        {
+            "name": "Art in Violance",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "When you adopt this specialty at 3rd level, you gain proficiency with light armor. Additionally, you gain proficiency with the Sleight of Hand skill. Finally, you gain proficiency with Painter’s supplies."
+            ]
+        },
+        {
+            "name": "Tattoo Artist Spells",
+            "source": "InkmagusReEditedAnna",
+            "className": "Inkmagus",
+            "classSource": "InkmagusReEditedAnna",
+            "subclassShortName": "Artist",
+            "subclassSource": "InkmagusReEditedAnna",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Tattoo Artist Spells table. These spells count as Inkmagus spells for you, but they don’t count against the number of InkMagus spells you know",
+                {
+                    "type": "table",
+                    "caption": "Tattoo Artist Spells",
+                    "colLabels": [
+                        "InkMagus Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell find familiar}, {@spell illusory script}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell augury}, {@spell skywrite}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell phantom steed}, {@spell Leomund’s Tiny Hut}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell Find Greater Steed}, {@spell Galder’s Speedy Courier}"
+                        ],
+                        [
+                            "17th",
+                            "{@spell Rary’s Telepathic Bond}, {@spell Seeming}"
+                        ]
                     ]
                 }
-            ],
-            "fluff": [
-                ""
-            ],
-            "subclass": [
             ]
         }
     ]
