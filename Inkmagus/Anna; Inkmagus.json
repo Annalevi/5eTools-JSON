@@ -3189,7 +3189,7 @@
             "type": "table",
             "caption": "Optional Caption",
             "colLabels": [
-                "Roll",
+                "Roll {@dice 1d20}",
                 "Enchantment"
             ],
             "rows": [
@@ -3280,7 +3280,7 @@
             "type": "table",
             "caption": "Optional Caption",
             "colLabels": [
-                "Roll",
+                "Roll {@dice 1d20}",
                 "Property",
                 "Enchantment"
             ],
